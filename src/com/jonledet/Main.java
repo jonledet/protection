@@ -4,14 +4,14 @@ import com.jonledet.utils.Tools;
 
 public class Main {
     public static void main(String[] args) {
-        if (args.length != 2 || !args[0].equals("-A")) {
+        if (args.length != 2 || !args[0].equals("-S")) {
             printError();
         }
         else {
             switch (args[1]) {
-                case "1" -> simulate(args[1]);
-                case "2" -> simulate(args[1]);
-                case "3" -> simulate(args[1]);
+                case "1" -> simulate1();
+                case "2" -> simulate2();
+                case "3" -> simulate3();
                 default -> printError();
             }
         }
@@ -32,7 +32,15 @@ public class Main {
         return getInput(origin, bound);
     }
 
-    private static void simulate(String type) {
+    private static void simulate1() {
+
+    }
+
+    private static void simulate2() {
+
+    }
+
+    private static void simulate3() {
 
     }
 }
